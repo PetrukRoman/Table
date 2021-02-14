@@ -1,0 +1,13 @@
+.Auth > div {
+  width: 100%;
+  max-width: 650px;
+}
+.Auth h1 {
+  color: #fff;
+  text-align: center;
+}
+.AuthForm {
+  background: rgb(255, 255, 255);
+
+  margin-bottom: 20px;
+}
