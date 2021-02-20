@@ -26,10 +26,13 @@ class App extends Component {
   };
 
   async fetchData(url) {
+    try{
     const response = await axios.get(url);
     const data = response.data;
-    console.log(data);
-
+    }catch(err){
+      console.log(err)
+    }
+    
     this.setState({
       isLoading: false,
       data,
